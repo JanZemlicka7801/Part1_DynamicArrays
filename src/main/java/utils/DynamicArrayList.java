@@ -296,7 +296,7 @@ public class DynamicArrayList {
             throw new IndexOutOfBoundsException("Index is out of bound.");
         }
         String old = this.array[index];
-        this.array[index - 1] = element;
+        this.array[index] = element;
         return old;
     }
 
